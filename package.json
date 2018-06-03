@@ -1,0 +1,47 @@
+{
+  "name": "odonto-farmacs-web-app",
+  "version": "0.0.1",
+  "description": "Odonto Farmacs Web App",
+  "scripts": {
+    "build": "stencil build",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "devWithSW": "sd concurrent \"stencil build --dev --service-worker --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev",
+    "test": "jest --no-cache",
+    "test.watch": "jest --watch --no-cache"
+  },
+  "keywords": [],
+  "author": "Paola Brambila & Renato Lucas Chitolina",
+  "license": "ISC",
+  "devDependencies": {
+    "@stencil/dev-server": "latest",
+    "@stencil/sass": "0.0.3",
+    "@stencil/utils": "latest",
+    "@types/jest": "^22.2.2",
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "@ionic/core": "4.0.0-alpha.3",
+    "@stencil/core": "0.7.26",
+    "js-cookie": "^2.2.0",
+    "pouchdb": "^6.4.3",
+    "rxjs": "^6.1.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.(js|ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx"
+    ]
+  }
+}

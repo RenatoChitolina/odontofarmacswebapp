@@ -1,0 +1,21 @@
+my-app {
+  /*
+    *** Workaround ***
+    The default overriding system of the template don't works, so, the way encountered to theming application was change
+    directly the sass source with the color variables, localized in:
+    "node_modules/@ionic/core/dist/collection/themes/ionic.theme.default.scss"
+  */
+
+  /*
+    *** Current snapshot of theme ***
+    $primary:         #17ab93; //$primary:         #3880ff;
+    $secondary:       #0cd1e8;
+    $tertiary:        #7044ff;
+    $success:         #10dc60;
+    $warning:         #ffce00;
+    $danger:          #f04141;
+    $light:           #f4f5f8;
+    $medium:          #989aa2;
+    $dark:            #222428;
+  */
+}

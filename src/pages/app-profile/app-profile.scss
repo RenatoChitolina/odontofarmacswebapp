@@ -1,0 +1,16 @@
+app-profile {
+  ion-scroll {
+    padding: 20px;
+  }
+
+  .key-button {
+    font-size: 32px;
+  }
+
+  ion-input.submitted {
+    input:invalid {
+      border-right: 2px solid #ffa500;
+      border-bottom: 1px solid #ffa500;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+/* Document Level Styles */
+.back-button {
+  font-size: 32px;
+}
+
+.menu-button {
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-item-button {
+  font-size: 32px;
+  padding-right: 10px;
+}
+
+.suggestion-item {
+  color: #17ab93;
+}
+
+.toast > div {
+  background-color: #17ab93 !important;
+  color: white !important;
+}

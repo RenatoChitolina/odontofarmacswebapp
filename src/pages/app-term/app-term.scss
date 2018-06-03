@@ -1,0 +1,22 @@
+app-term {
+  ion-scroll {
+    padding: 20px;
+  }
+
+  .term-title {
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .term-subtitle {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .term-text {
+    padding-top: 16px;
+    width: 100%;
+    font-size: 16px;
+    white-space: pre-line;
+  }
+}
